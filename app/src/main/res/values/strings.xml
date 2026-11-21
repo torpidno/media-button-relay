@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Media Button Relay</string>
+    <string name="app_subtitle">External Bluetooth remote media remapper</string>
+
+    <string name="card_status_title">Relay Status</string>
+    <string name="status_active">Active</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_inactive">Not Enabled</string>
+    <string name="btn_enable_service">Enable Relay Service</string>
+    <string name="btn_open_settings">Open Accessibility Settings</string>
+    <string name="switch_relay_enabled">Relay Enabled</string>
+    <string name="switch_relay_enabled_sub">Temporarily pause remapping without turning off the system service</string>
+    <string name="remotes_none">External remotes: None detected</string>
+    <string name="remotes_found">External remotes: %1$s</string>
+
+    <string name="card_actions_title">Button Actions</string>
+    <string name="label_single_press">Single Press</string>
+    <string name="label_double_press">Double Press</string>
+    <string name="label_triple_press">Triple Press</string>
+
+    <string name="card_options_title">Timing &amp; Remote Options</string>
+    <string name="label_window_ms">Multi-press window: %1$d ms</string>
+    <string name="hint_window_ms">Faster values feel snappier; higher values make double/triple clicks easier.</string>
+    <string name="switch_trigger_release">Trigger on button release</string>
+    <string name="switch_trigger_release_sub">Recommended for CheerPlay and remotes that emit key events on release</string>
+    <string name="switch_external_only">External Bluetooth remotes only</string>
+    <string name="switch_external_only_sub">Leaves your phone\'s physical side volume buttons untouched</string>
+
+    <string name="card_test_title">Live Button Test</string>
+    <string name="test_waiting_active">Press a button on your Bluetooth remote to see live remapped output…</string>
+    <string name="test_waiting_inactive">Enable the Relay Service above to start intercepting remote buttons.</string>
+    <string name="test_event_format">Key: %1$s (%2$s)\nDetected: %3$dx press → Sent: %4$s</string>
+    <string name="btn_privacy_info">Accessibility &amp; Privacy Info</string>
+
+    <string name="accessibility_service_description">Intercepts hardware volume button presses from your paired Bluetooth media remotes and converts single, double, or triple presses into Play/Pause, Next Track, or Previous Track commands. Does not read screen content or collect any data.</string>
+
+    <string name="disclosure_title">Accessibility Permission Disclosure</string>
+    <string name="disclosure_message">Media Button Relay uses Android\'s Accessibility Service solely to detect hardware volume button presses from connected Bluetooth remotes and translate them into media playback actions (such as Play/Pause or Next Track).\n\n• Cannot read screen text, passwords, or notifications.\n• Does not perform automatic taps or UI actions.\n• Works 100%% offline — zero data is collected, stored externally, or shared.\n\nYou will be taken to Android Accessibility Settings, where you can enable or disable \"Media Button Relay\" at any time.</string>
+    <string name="disclosure_confirm">I Understand — Open Settings</string>
+    <string name="disclosure_decline">Decline</string>
+    <string name="disclosure_close">Close</string>
+</resources>

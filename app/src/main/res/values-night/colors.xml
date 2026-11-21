@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#7DA8FF</color>
+    <color name="brand_on_primary">#0A192F</color>
+    <color name="brand_secondary">#2EE6CE</color>
+    <color name="brand_on_secondary">#062622</color>
+    <color name="surface_bg">#0E141F</color>
+    <color name="card_bg">#172030</color>
+    <color name="card_stroke">#28354B</color>
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="status_active">#4ADE80</color>
+    <color name="status_active_bg">#123823</color>
+    <color name="status_inactive">#94A3B8</color>
+    <color name="status_inactive_bg">#243044</color>
+    <color name="status_paused">#FBBF24</color>
+    <color name="status_paused_bg">#3B2A0C</color>
+</resources>
